@@ -53,6 +53,7 @@ df_b_repart.groupBy(spark_partition_id)
 
 This query gives the following output. 
 
+```bash
 +--------------------+--------+
 |SPARK_PARTITION_ID()|   count|
 +--------------------+--------+
@@ -81,7 +82,7 @@ This query gives the following output.
 |                 170|  200000|
 |                  86|50000000|
 +--------------------+--------+
-
+```
 
 
 
